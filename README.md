@@ -2,27 +2,27 @@
 
 This RESTful API have:
 
-1. A '/products' resource that supports following requests:
-   GET - get all products
-   POST - add new product
-   Also I'm able to access the individual product by id and
-   get information about that product with following requests:
-   GET - get a single product by id
-   PATCH - update product information
-   DELETE - delete product
+1. A '/products' resource that supports following requests:<br/>
+   GET - get all products<br/>
+   POST - add new product<br/>
+   Also I'm able to access the individual product by id and<br/>
+   get information about that product with following requests:<br/>
+   GET - get a single product by id<br/>
+   PATCH - update product information<br/>
+   DELETE - delete product<br/>
 
-2. A '/orders' resource that supports following requests:
-   GET - get all orders
-   POST - create a new order
-   Also I'm able to access the individual order by id and
-   get information about that order with following requests:
-   GET - get a single order by id
-   DELETE - delete order
+2. A '/orders' resource that supports following requests:<br/>
+   GET - get all orders<br/>
+   POST - create a new order<br/>
+   Also I'm able to access the individual order by id and<br/>
+   get information about that order with following requests:<br/>
+   GET - get a single order by id<br/>
+   DELETE - delete order<br/>
 
-3. A '/user' resource that supports following requests:
-   POST using 'user/signup' route - to sign up user
-   POST using 'user/login' route - to login user
-   DELETE - delete user by id
+3. A '/user' resource that supports following requests:<br/>
+   POST using 'user/signup' route - to sign up user<br/>
+   POST using 'user/login' route - to login user<br/>
+   DELETE - delete user by id<br/>
 
 Users resource represents authentication functionality and
 was implemented to make sure that some of these routes/endpoints
